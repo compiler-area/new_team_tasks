@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="description for html">
+      <title>TASK2</title>
+      <style> 
+         blockquote
+         {
+         background:#EEE;
+         padding:1px;
+         }
+         table,td,th{border:1px solid#676767;border-collapse: collapse;}
+         table {width: 400px}
+         thead, td {font-weight: bold;text-align: center;color: #000;background: #333;padding: 5px}
+         tfoot td {font: weight:bold;text-align:center;color: #f00;background: #DDD;padding: 5px}
+         tbody td {text-align: center;padding: 5px;background: #EFEFEF}           
+         table caption {color:#00f,font weight bold,width}
+         .A
+         {
+         color: red;
+         }
+         .B
+         {
+         color: green;
+         }
+         .C
+         {
+         color: blue;
+         }
+         .D
+         {
+         color: orange;
+         }
+         .E
+         {
+         color: purple;
+         }
+         .F
+         {
+         color:black; 
+         }
+         .G
+         {
+         color: orange;
+         }
+         fieldset{background: #EFEFEF;padding: 10PX;border: 1PX solid#CCC margin-bottom 20px}
+         legend {background: #fff;border: 1px solid#CCC;padding: 5px}
+         *{
+         color:black;
+         }
+         #Q td,#Q th{
+         background-color: #CCC;
+         }
+      </style>
+   </head>
+   <body>
+      <!-- the blockquote -->
+      <h1>a special quotes makes your life</h1>
+      <blockquote>
+         There are<mark>only two ways</mark> to live your life.<ins>One is as though nthing is a miacle</ins>.<del>the other is as though every thing is a miracle.</del>
+         <br>
+         <q>
+         Albert Einstein 
+         </q>
+      </blockquote>
+      <blockquote>
+         the important thing is not to stop questioning.Curiosity has its own reason for eristence.One cannot help but be in awe when he 
+         contemplates the mysteries of eternity,of life,of the marveious structure of reality.it is enough if one tries merely to comprehend
+         a little of this mystery each day.
+         <mark> Old Mans Advice to Youth:Never Lose aHoly Curiosity.LIFE Magazine (2<SUP>nd</SUP> of May 1955) p.<SUB>64</SUB></mark>
+         <br>
+         <Q>
+         Albert Einstein
+         </Q>
+      </blockquote>
+      <!-- first table -->
+      <table>
+         <caption>this is a taple</caption>
+         <thead>
+            ;
+            <tr >
+               <td style="background: #ddd">Old team</td>
+               <td style="background: #ddd">Abubar</td>
+               <td style="background: #ddd">Fareed</td>
+               <td style="background: #ddd">Yassa</td>
+               <td style="background: #ddd">Aya</td>
+               <td style="background: #ddd">Rana</td>
+            </tr>
+         </thead>
+         <tfoot>
+            <tr>
+               <td>specification</td>
+               <td>front-end developer</td>
+               <td>back-end developer</td>
+               <td>back-end developer</td>
+               <td>front-end developer</td>
+               <td>front-end developer</td>
+            </tr>
+         </tfoot>
+         <tbody>
+            <tr>
+               <td>working with</td>
+               <td>Vuc.js</td>
+               <td>python</td>
+               <td>php</td>
+               <td>html5,css3jQucry</td>
+               <td>html5,css3jQucry</td>
+            </tr>
+         </tbody>
+      </table>
+      <table style="background: #ddd " id="Q">
+         <caption style="text-align: center;">Web-team sections</caption>
+         <thead border="1" width="400">
+            <tr>
+               <th colspan="2">programming</th>
+               <th colspan="3">webDesign</th>
+            </tr>
+            <tr>
+               <td>php</td>
+               <td>mySQL</td>
+               <td>html</td>
+               <td>css</td>
+               <td>jQuery</td>
+            </tr>
+      </table>
+      <br>
+
+      <!-- class exercise -->
+      <div style="text-align: center; font-size: 100px;">
+         <span class="A">C</span>
+         <span class="B">o</span>
+         <span class="C">p</span>
+         <span class="D">i</span>
+         <span class="E">L</span>
+         <span class="F">e</span>
+         <span class="G">r</span>
+      </div>
+
+      <!-- the form applications -->
+      <form name="register">
+         <fieldset>
+            <legend>personal info</legend>
+            <label>Username</label>
+            <input type="text" name="Username" value="" placeholder="type your name">
+            <br>
+            <label>pasword</label>
+            <input type="pasword" name="pasword"placeholder="type your pasword">
+            <br>
+            <input type="checkbox"><br>
+            <label>Remember Ne</label>
+         </fieldset>
+         <br>
+         <fieldset>
+            <legend>other info</legend>
+            <label>gender</label><br>
+            <input type="radio" name="mobile" value="male">
+            <label>male</label><br>
+            <input type="radio" name="mobile" value="female">
+            <label>female</label><br>
+            <label>browser</label><br>
+            <input type="radio" name="browser" value="chrome">
+            <label>chrome</label><br>
+            <input type="radio" name="browser" value="firefox">
+            <label>firefox</label><br>
+            <input type="radio" name="browser" value="safari">
+            <label>safari</label><br>
+            <label>leave a message</label><br>
+            <textarea rows="6"cols="50"></textarea>
+            <br>
+            <input type="submit" value="signup"><br>
+         </fieldset>
+         <br>
+         <fieldset>
+            <legend>Deal with infos</legend>
+            <br>
+            <select name="time" size="1" >
+               <option disabled>Now</option>
+               <option>tomorrow</option>
+               <option>After A week</option>
+               <br>
+               <input type="reset" value="delete info"><br>
+            </select>
+         </fieldset>
+         <br>
+      </form>
+      <iframe src="http://193.227.59.130/ZAD/User_Interface/LoginPage.aspx" style="width:600px; height: 500px;" title="Iframe Example"></iframe><br>
+      &lt;div class="Num-div"&gt;<br>
+      &lt;Type the here <br>
+      &lt;/div &gt;<br>
+      <div style="text-align: center;">
+         copyrights &copy;for compiler team
+      </div>
+  </body>
+</html>
